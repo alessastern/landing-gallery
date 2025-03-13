@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <div id="popup">
+      <span class="close-popup" onclick="closePopup()">X</span>
+      <div class="closer-img"></div>
+      <span class="description"></span>
+    </div>
+    <div class="header">
+      <img
+        class="logo"
+        src="assets/logo.png"
+        width="50px"
+        height="50px"
+        alt="logo-canvas-by-Freepik"
+      />
+    </div>
+    <div class="page">
+      <h1 class="title">Explore the world of art</h1>
+      <noscript
+        ><div>
+          Sorry, our site cannot be displayed without JavaScript.
+        </div></noscript
+      >
+      <div class="gallery" id="gallery">
+        <script src="./gallery.js"></script>
+      </div>
+    </div>
+    <div class="footer"><p>2025 | Test Landing</p></div>
+  </body>
+</html>
